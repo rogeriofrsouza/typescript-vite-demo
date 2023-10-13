@@ -1,4 +1,4 @@
-document.body.innerHTML = `
+document.querySelector<HTMLDivElement>('#section')!.innerHTML = `
   <h1>User info</h1>
   <h3>John Yellow</h3>
   <p>Software developer, a great one!</p>
